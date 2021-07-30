@@ -5,58 +5,10 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇭🇰 HK 01（八度空间）, server: hk12-5510.dukouplan3.dev, port: 8012, type: trojan, password: //1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: hk12-5510.dukouplan3.dev, skip-cert-verify: false}
-  - {name: 🇭🇰 HK 02（八度空间）, server: hk-route-12369-1.dukou.info, port: 8301, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: hk-route-12369-1.dukou.info, skip-cert-verify: false}
-  - {name: 🇭🇰 HK 03（八度空间）, server: hk-route-12369-2.dukou.info, port: 8302, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: hk-route-12369-2.dukou.info, skip-cert-verify: false}
-  - {name: 🇭🇰 HK 04（八度空间）, server: hk-route-12369-9.dukou.info, port: 8309, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: hk-route-12369-9.dukou.info, skip-cert-verify: false}
-  - {name: 🇭🇰 HK 05（八度空间）, server: hk-route2-azure-hk7.dukou.info, port: 8307, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: hk-route2-azure-hk7.dukou.info, skip-cert-verify: false}
-  - {name: 🇭🇰 HK 05（八度空间） 2, server: shanghai-router2-hk4-5478.dukou.info, port: 8304, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: shanghai-router2-hk4-5478.dukou.info, skip-cert-verify: false}
-  - {name: 🇭🇰 HK 06（八度空间）, server: hk-route2-azure-hk8.dukou.info, port: 8308, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: hk-route2-azure-hk8.dukou.info, skip-cert-verify: false}
-  - {name: 🇭🇰 HK 06（八度空间） 2, server: shanghai-router2-hk5-5478.dukou.info, port: 8305, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: shanghai-router2-hk5-5478.dukou.info, skip-cert-verify: false}
-  - {name: 🇭🇰 HK（八度空间）, server: hk11-5423.dukouplan3.dev, port: 8011, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: hk11-5423.dukouplan3.dev, skip-cert-verify: false}
-  - {name: 🇯🇵 JP 03（八度空间）, server: shanghai-router1-892412-jp3.dukou.info, port: 6303, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: shanghai-router1-892412-jp3.dukou.info, skip-cert-verify: false}
-  - {name: 🇯🇵 JP 04（八度空间）, server: shanghai-router1-892412-jp4.dukou.info, port: 6304, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: shanghai-router1-892412-jp4.dukou.info, skip-cert-verify: false}
-  - {name: 🇯🇵 JP 05（八度空间）, server: shanghai-router1-892412-jp5.dukou.info, port: 6305, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: shanghai-router1-892412-jp5.dukou.info, skip-cert-verify: false}
-  - {name: 🇯🇵 JP 06（八度空间）, server: jp-shanghai-ss-07.dukou.info, port: 6307, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: jp-shanghai-ss-07.dukou.info, skip-cert-verify: false}
-  - {name: 🇯🇵 JP 07（八度空间）, server: shanghai-router1-892412-jp6.dukou.info, port: 6306, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: shanghai-router1-892412-jp6.dukou.info, skip-cert-verify: false}
-  - {name: 🇯🇵 JP 08（八度空间）, server: jp-shanghai-ss-08.dukou.info, port: 6308, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: jp-shanghai-ss-08.dukou.info, skip-cert-verify: false}
-  - {name: 🇯🇵 JP（八度空间）, server: shanghai-router1-892412-jp1.dukou.info, port: 6301, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: shanghai-router1-892412-jp1.dukou.info, skip-cert-verify: false}
-  - {name: 🇯🇵 JP02（八度空间）, server: shanghai-router1-892412-jp2.dukou.info, port: 6302, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: shanghai-router1-892412-jp2.dukou.info, skip-cert-verify: false}
-  - {name: 🇺🇸 US 12（八度空间）, server: hk-route-12369-us5.dukou.info, port: 7005, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: hk-route-12369-us5.dukou.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN（八度空间）, server: hk10-gray.dukou.info, port: 8310, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: hk10-gray.dukou.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN（八度空间） 2, server: hk-cnrelay-14-142345.dukou.info, port: 8314, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: hk-cnrelay-14-142345.dukou.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN（八度空间） 3, server: tw6-5641.dukouplan3.dev, port: 5306, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: tw6-5641.dukouplan3.dev, skip-cert-verify: false}
-  - {name: 🇷🇺 俄罗斯（八度空间）, server: ru01-cu-1120.dukou.info, port: 2301, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: ru01-cu-1120.dukou.info, skip-cert-verify: false}
-  - {name: 🇰🇷 韩国 04（八度空间）, server: kr-cn-relay-5-566d12.dukou.info, port: 3305, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: kr-cn-relay-5-566d12.dukou.info, skip-cert-verify: false}
-  - {name: 🇰🇷 韩国 05（八度空间）, server: kr-cn-relay-6-6454dc.dukou.info, port: 3306, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: kr-cn-relay-6-6454dc.dukou.info, skip-cert-verify: false}
-  - {name: 🇰🇷 韩国（八度空间）, server: kr-cn-relay-2-32v22.dukou.info, port: 3302, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: kr-cn-relay-2-32v22.dukou.info, skip-cert-verify: false}
-  - {name: 🇰🇷 韩国02（八度空间）, server: kr-cn-relay-3-9iuh56.dukou.info, port: 3303, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: kr-cn-relay-3-9iuh56.dukou.info, skip-cert-verify: false}
-  - {name: 🇰🇷 韩国03（八度空间）, server: kr-cn-relay-4-45523.dukou.info, port: 3304, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: kr-cn-relay-4-45523.dukou.info, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡（八度空间）, server: sg-cn-hk-relay-1-767f45.dukou.info, port: 9301, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: sg-cn-hk-relay-1-767f45.dukou.info, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡02（八度空间）, server: sg-cn-hk-relay-2-54bc52.dukou.info, port: 9302, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: sg-cn-hk-relay-2-54bc52.dukou.info, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡03（八度空间）, server: sg-cn-hk-relay-3-dd4440.dukou.info, port: 9303, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: sg-cn-hk-relay-3-dd4440.dukou.info, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡04（八度空间）, server: sg-cn-hk-relay-4-40e978.dukou.info, port: 9304, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: sg-cn-hk-relay-4-40e978.dukou.info, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡05（八度空间）, server: sg-cn-hk-relay-5-51f087.dukou.info, port: 9305, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: sg-cn-hk-relay-5-51f087.dukou.info, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡06（八度空间）, server: sg-cn-relay-6-689145.dukou.info, port: 9306, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: sg-cn-relay-6-689145.dukou.info, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡07（八度空间）, server: sg-cn-relay-7-74812.dukou.info, port: 9307, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: sg-cn-relay-7-74812.dukou.info, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡08（八度空间）, server: sg-cn-relay-8-14852.dukou.info, port: 9308, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: sg-cn-relay-8-14852.dukou.info, skip-cert-verify: false}
-  - {name: 🇨🇳 中国台湾（八度空间）, server: tw-cn-hk-relay-1-97861a.dukou.info, port: 5301, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: tw-cn-hk-relay-1-97861a.dukou.info, skip-cert-verify: false}
-  - {name: 🇨🇳 中国台湾02（八度空间）, server: tw-cn-hk-relay-2-184a76.dukou.info, port: 5302, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: tw-cn-hk-relay-2-184a76.dukou.info, skip-cert-verify: false}
-  - {name: 🇨🇳 中国台湾03（八度空间）, server: tw3-5412.dukouplan3.dev, port: 5303, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: tw3-5412.dukouplan3.dev, skip-cert-verify: false}
-  - {name: 🇨🇳 中国台湾04（八度空间）, server: tw7-5756.dukouplan3.dev, port: 5307, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: tw7-5756.dukouplan3.dev, skip-cert-verify: false}
-  - {name: 🇺🇸 US（八度空间）, server: 154.17.2.153, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: 🇺🇸 US（八度空间） 2, server: 154.17.2.31, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: 🇺🇸 US（八度空间） 3, server: 154.17.2.54, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: YazuZ2ZE9p5Rn3CANKlD6SqC0OTSyXBIReypacD4Fae8gx87lOD3SY33jFAwCx}
-  - {name: 🇦🇺 AU03（八度空间）, server: 45.248.78.45, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇯🇵 JP（八度空间） 2, server: 84.17.34.24, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
   - {name: 🇺🇸 US（八度空间） 4, server: 212.102.44.83, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇺🇸 US（八度空间） 5, server: 212.102.44.93, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇦🇺 澳大利亚01（八度空间）, server: 45.248.78.45, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
-  - {name: 🇦🇺 澳大利亚05（八度空间）, server: 45.248.78.45, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+    - {name: 🇦🇺 澳大利亚01（八度空间）, server: 45.248.78.45, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
   - {name: 🇦🇺 澳大利亚07（八度空间）, server: 45.248.78.45, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 🇦🇺 澳大利亚08（八度空间）, server: 45.248.78.45, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
   - {name: 🇦🇺 澳大利亚20（八度空间）, server: 45.248.79.67, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇦🇺 澳大利亚21（八度空间）, server: 45.248.79.67, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
   - {name: 巴基斯坦（八度空间1）, server: 5.189.202.16, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
   - {name: 巴基斯坦（八度空间2）, server: 5.189.202.16, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
   - {name: 巴基斯坦（八度空间3）, server: 5.189.202.16, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
@@ -77,20 +29,17 @@ proxies:
   - {name: 巴基斯坦（八度空间18）, server: 5.189.202.16, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
   - {name: 巴基斯坦（八度空间19）, server: 5.189.202.16, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
   - {name: 比利时（八度空间）, server: 91.90.123.115, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
-  - {name: 波黑00（八度空间）, server: 185.212.111.41, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
   - {name: 波黑01（八度空间）, server: 185.212.111.59, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
   - {name: 波黑02（八度空间）, server: 185.212.111.6, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
   - {name: 波黑04（八度空间）, server: 185.99.3.7, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
   - {name: 法（八度空间）, server: 51.89.99.59, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: 捷克 布拉格05（八度空间）, server: 185.180.14.147, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
   - {name: 捷克 布拉格07（八度空间）, server: 185.180.14.151, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: ‪捷克（八度空间）, server: 89.187.168.39, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
   - {name: 🇺🇸 美国 丹佛（八度空间）, server: 212.102.44.83, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
   - {name: 🇺🇸 美国 丹佛03（八度空间）, server: 212.102.44.83, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
   - {name: 🇺🇸 美国 丹佛2（八度空间）, server: 212.102.44.83, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
   - {name: 🇺🇸 美国 堪萨斯（八度空间）, server: 143.244.56.230, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇺🇸 美国 堪萨斯02（八度空间）, server: 143.244.56.230, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇺🇸 美国 堪萨斯03（八度空间）, server: 143.244.56.230, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+ - {name: 🇺🇸 美国 堪萨斯03（八度空间）, server: 143.244.56.230, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
   - {name: 🇺🇸 美国 堪萨斯04（八度空间）, server: 143.244.57.99, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
   - {name: 🇺🇸 美国 堪萨斯05（八度空间）, server: 143.244.57.99, port: 44745, type: ss, cipher: aes-256-gcm, password: fyXdw87yCH9SAmFkPvsvLVqC}
   - {name: 🇺🇸 美国 堪萨斯06（八度空间）, server: 143.244.57.99, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
@@ -111,7 +60,6 @@ proxies:
   - {name: 🇺🇸 美国 堪萨斯23（八度空间）, server: 143.244.57.99, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
   - {name: 🇺🇸 美国 堪萨斯25（八度空间）, server: 143.244.57.99, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
   - {name: 🇺🇸 美国 洛杉矶5（八度空间）, server: 198.147.22.87, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇺🇸 美国 乔治亚 亚特兰大（八度空间）, server: 66.115.175.37, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
   - {name: 🇸🇬 美国 新泽西（八度空间）, server: 66.55.148.42, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: 🇺🇸 美国（八度空间）, server: 137.59.52.107, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
   - {name: 🇺🇸 美国（八度空间） 2, server: 198.8.92.84, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
@@ -130,9 +78,7 @@ proxies:
   - {name: 欧洲09（八度空间）, server: 138.199.16.137, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
   - {name: 欧洲11（八度空间）, server: 138.199.19.162, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
   - {name: 欧洲12（八度空间）, server: 138.199.19.182, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 欧洲13（八度空间）, server: 138.199.19.184, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇨🇳 台湾（八度空间）, server: 85.10.50.164, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇩🇪 西班牙 马德里（八度空间）, server: 84.17.62.165, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+   - {name: 🇩🇪 西班牙 马德里（八度空间）, server: 84.17.62.165, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
   - {name: 新西兰 奥克兰（八度空间）, server: 180.149.231.11, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
   - {name: 🇮🇹 意大利 米兰02（八度空间）, server: 82.102.26.117, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
   - {name: 🇮🇹 意大利 米兰03（八度空间）, server: 82.102.26.117, port: 40282, type: ss, cipher: aes-256-gcm, password: Pvvaw486867D2w4yctL2ULTQ}
@@ -143,5 +89,32 @@ proxies:
   - {name: 🇮🇹 意大利 米兰09（八度空间）, server: 82.102.26.117, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
   - {name: 🇬🇧 英国03（八度空间）, server: 84.17.53.221, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
   - {name: 🇬🇧 英国05（八度空间）, server: 84.17.53.210, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+ - {name: 118.107.244.114:2375, server: 118.107.244.114, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_1683, server: tw5-5564.dukouplan3.dev, port: 5305, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: tw5-5564.dukouplan3.dev}
+  - {name: 🇸🇬 Relay_-🇸🇬SG_451, server: relay.xxl123.fun, port: 10010, type: vmess, uuid: e9e99983-0296-40a1-9d68-dd475d6c4fc5, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /path, ws-headers: {Host: relay.xxl123.fun}}
+  - {name: 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_1686, server: tw-cn-hk-relay-1-97861a.dukou.info, port: 5301, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: tw-cn-hk-relay-1-97861a.dukou.info}
+  - {name: 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_1808 |19.08Mb, server: azsg.pengui.tools, port: 50012, type: vmess, uuid: e34f73d2-ed87-4088-973d-9303eedd2f33, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: azsg.pengui.tools}}
+  - {name: 🇦🇷 https://www.mattkaydiary.com|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong, server: azhk3.pengui.tools, port: 50011, type: vmess, uuid: e34f73d2-ed87-4088-973d-9303eedd2f33, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: azhk3.pengui.tools}}
+  - {name: 🇸🇬 Relay_🇨🇳CN-🇸🇬SG_1697, server: sg-cn-hk-relay-4-40e978.dukou.info, port: 9304, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: sg-cn-hk-relay-4-40e978.dukou.info}
+  - {name: 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_1676, server: hk-route-12369-2.dukou.info, port: 8302, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: hk-route-12369-2.dukou.info}
+  - {name: 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_1685, server: hk-route-12369-9.dukou.info, port: 8309, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: hk-route-12369-9.dukou.info}
+  - {name: 🇸🇬 https://www.mattkaydiary.com|新加坡(SG)Singapore/Singapore, server: azsg.pengui.tools, port: 50011, type: vmess, uuid: e34f73d2-ed87-4088-973d-9303eedd2f33, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: azsg.pengui.tools}}
+  - {name: 118.107.244.113:2375, server: 118.107.244.113, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇸🇬 Relay_🇨🇳CN-🇸🇬SG_1695, server: sg-cn-relay-7-74812.dukou.info, port: 9307, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: sg-cn-relay-7-74812.dukou.info}
+  - {name: 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_1681, server: hk-cnrelay-14-142345.dukou.info, port: 8314, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: hk-cnrelay-14-142345.dukou.info}
+  - {name: 🇨🇳 CN_2611 |10.75Mb, server: hk-route2-azure-hk8.dukou.info, port: 8308, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: hk-route2-azure-hk8.dukou.info}
+  - {name: 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_1678, server: hk-route2-azure-hk7.dukou.info, port: 8307, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: hk-route2-azure-hk7.dukou.info}
+  - {name: 🇺🇸 Relay_🇨🇳CN-🇺🇸US_1694, server: sg-cn-hk-relay-2-54bc52.dukou.info, port: 9302, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: sg-cn-hk-relay-2-54bc52.dukou.info}
+  - {name: 🇯🇵 Relay_🇨🇳CN-🇯🇵JP_441 |19.93Mb, server: ngzyd-1.okex-tradebot.xyz, port: 30006, type: vmess, uuid: a2264468-6699-416d-a5c5-3dd671aef525, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ngzyd-1.okex-tradebot.xyz}}
+  - {name: 🇨🇳 CN_2619 |11.44Mb, server: shanghai-router2-hk4-5478.dukou.info, port: 8304, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: shanghai-router2-hk4-5478.dukou.info}
+  - {name: 🇸🇬 Relay_🇨🇳CN-🇸🇬SG_1693, server: sg-cn-hk-relay-1-767f45.dukou.info, port: 9301, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: sg-cn-hk-relay-1-767f45.dukou.info}
+  - {name: 🇭🇰 https://www.mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点), server: cm-jm.okvpn.cc, port: 20001, type: vmess, uuid: 540fc9e9-8805-4a07-9874-56821789914d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.cc}}
+  - {name: 🇸🇬 Relay_🇨🇳CN-🇸🇬SG_1680, server: sg-cn-hk-relay-5-51f087.dukou.info, port: 9305, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: sg-cn-hk-relay-5-51f087.dukou.info}
+  - {name: 🇸🇬 Relay_🇨🇳CN-🇸🇬SG_1677, server: sg-cn-hk-relay-3-dd4440.dukou.info, port: 9303, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: sg-cn-hk-relay-3-dd4440.dukou.info}
+  - {name: 🇺🇸 Relay_🇨🇳CN-🇺🇸US_1682, server: hk10-gray.dukou.info, port: 8310, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: hk10-gray.dukou.info}
+  - {name: 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_1692, server: hk12-5510.dukouplan3.dev, port: 8012, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: hk12-5510.dukouplan3.dev}
+  - {name: 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_444 | 9.30Mb, server: cm-jm.okvpn.cc, port: 20002, type: vmess, uuid: 540fc9e9-8805-4a07-9874-56821789914d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.cc}}
+  - {name: 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_1700, server: tw-cn-hk-relay-2-184a76.dukou.info, port: 5302, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: tw-cn-hk-relay-2-184a76.dukou.info}
+  - {name: 🇺🇸 Relay_🇨🇳CN-🇺🇸US_1689, server: hk11-5423.dukouplan3.dev, port: 8011, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: hk11-5423.dukouplan3.dev}
   - {name: 🇬🇧 英国2（八度空间）, server: 5.183.101.200, port: 35374, type: vmess, uuid: 62836733-0014-4014-e0e3-908eea2f3063, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: 🇸🇬 新加坡（八度空间） 2, server: a3f9de24309558b0c.awsglobalaccelerator.com, port: 24648, type: vmess, uuid: 24cd8398-c0e6-4667-a712-a358754809d9, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: a3f9de24309558b0c.awsglobalaccelerator.com}}
